@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2rem;
+}
+.choices {
+    display: flex;
+    justify-content :center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    display: flex;
+    justify-content :center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* .choice img:hover {
+    transition: 0.1s all ease-out;
+    border: .5rem solid black;
+} */
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 3rem;
+    text-align: center;
+    gap: 3rem;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#user, #comp {
+    font-size: 2rem;
+}
+
+.you_counter p {
+    margin-top: 1rem;
+}
+
+.comp_counter p {
+    margin-top: 1rem;
+}
+
+.msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2rem;
+    height: 3rem;
+}
+
+.msg p {
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    margin-top: 5rem;
+    padding: 1rem;
+    line-height: 3rem;
+}
+
+
+
